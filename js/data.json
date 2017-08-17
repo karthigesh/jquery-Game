@@ -1,0 +1,191 @@
+[
+    {
+        "title": "Enlarged tongue",
+        "count":14,
+        "chars":["g","e"],
+        "percent":70,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Otitis media",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Enlarged tonsils/adenoids",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Coarse facial features",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Nasal obstruction",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Adenoidectomy",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"T-tube insertion",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Otorrhoea",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Tonsillectomy",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Hearing loss",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Ear drum perforation",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Hearing aid use",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Tracheotomy",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Feeding tube insertion",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Tinnitus",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Vertigo",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Abdominal hernia",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Delayed speech",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Delayed walking",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Enlarged liver/spleen",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Joint stiffness",
+        "count":11,
+        "chars":["t","m"],
+        "percent":72,
+        "reference":"Wraith 2008 p5a"
+		},
+   {
+        "title":"Claw hand",
+        "count":8,
+        "chars":["h","n"],
+        "percent":53,
+        "reference":"Link 2010 p4c"
+		},
+   {
+        "title":"Cardiac valve disease",
+        "count":11,
+        "chars":["a","d","i"],
+        "percent":63,
+        "reference":"Kampmann 2011 p3a"
+		},
+   {
+        "title":"Kyphosis/scoliosis",
+        "count":18,
+        "chars":["p","l"],
+        "percent":34,
+        "reference":"Link 2010 p4c"
+		},
+   {
+        "title":"Abnormal gait",
+        "count":12,
+        "chars":["b","m"],
+        "percent":25,
+        "reference":"Link 2010 p4a"
+		},
+   {
+        "title":"Heart murmur",
+        "count":11,
+        "chars":["h","t"],
+        "percent":62,
+        "reference":"Wraith 2008 p6a"
+		},
+   {
+        "title":"Carpal tunnel syndrome",
+        "count":20,
+        "chars":["e","d","m"],
+        "percent":27,
+        "reference":"Link 2010 p4b"
+		}
+]

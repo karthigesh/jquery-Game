@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>Hunter Syndrome - Symptom Spotter</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./style.css" type="text/css" />
+		<!-- Insert this line above script imports  -->
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+		<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./js/demo.js"></script>
+	</head>
+	<body class="playmode">
+		<div class="container">
+			<div class="topsection">
+				<div class="topleft">
+					<img class="demoimg" src="images/header-left1.png"/>
+				</div>
+				<div class="topright">
+					<img id="timer" src="images/timer/timer-0.png"/>
+				</div>
+			</div>
+			<div class="middlesection">
+				<div class="middle">
+					<div class="chars">
+						<input type="text" name="words" class="words charbox_e wordfilled" value="e" readonly>
+						<input type="text" name="words" class="words charbox_n" value="" readonly>
+						<input type="text" name="words" class="words charbox_l" value="" readonly>
+						<input type="text" name="words" class="words charbox_a" value="" readonly>
+						<input type="text" name="words" class="words charbox_r" value="" readonly>
+						<input type="text" name="words" class="words charbox_g wordfilled" value="g" readonly>
+						<input type="text" name="words" class="words charbox_e wordfilled" value="e" readonly>
+						<input type="text" name="words" class="words charbox_d" value="" readonly>
+					</div>
+					<div class="chars">
+						<input type="text" name="words" class="words charbox_t" value="" readonly>
+						<input type="text" name="words" class="words charbox_o" value="" readonly>
+						<input type="text" name="words" class="words charbox_n" value="" readonly>
+						<input type="text" name="words" class="words charbox_g wordfilled" value="g" readonly>
+						<input type="text" name="words" class="words charbox_u" value="" readonly>
+						<input type="text" name="words" class="words charbox_e wordfilled" value="e" readonly>
+					</div>
+				</div>
+			</div>
+			<div class="bottomtopsection">
+				<div class="overlay"></div>
+				<div class="first">
+					<button class="alpha" id="char_a" data-value="a"><span>a</span></button>
+					<button class="alpha" id="char_b" data-value="b"><span>b</span></button>
+					<button class="alpha" id="char_c" data-value="c"><span>c</span></button>
+					<button class="alpha" id="char_d" data-value="d"><span>d</span></button>
+					<button class="alpha complete" id="char_e" data-value="e"><span>e</span></button>
+					<button class="alpha" id="char_f" data-value="f"><span>f</span></button>
+					<button class="alpha complete" id="char_g" data-value="g"><span>g</span></button>
+					<button class="alpha" id="char_h" data-value="h"><span>h</span></button>
+					<button class="alpha" id="char_i" data-value="i"><span>i</span></button>
+					<button class="alpha" id="char_j" data-value="j"><span>j</span></button>
+					<button class="alpha" id="char_k" data-value="k"><span>k</span></button>
+					<button class="alpha" id="char_l" data-value="l"><span>l</span></button>
+					<button class="alpha" id="char_m" data-value="m"><span>m</span></button>
+				</div>
+				<div class="last">
+					<button class="alpha" id="char_n" data-value="n"><span>n</span></button>
+					<button class="alpha" id="char_o" data-value="o"><span>o</span></button>
+					<button class="alpha" id="char_p" data-value="p"><span>p</span></button>
+					<button class="alpha" id="char_q" data-value="q"><span>q</span></button>
+					<button class="alpha" id="char_r" data-value="r"><span>r</span></button>
+					<button class="alpha" id="char_s" data-value="s"><span>s</span></button>
+					<button class="alpha" id="char_t" data-value="t"><span>t</span></button>
+					<button class="alpha" id="char_u" data-value="u"><span>u</span></button>
+					<button class="alpha" id="char_v" data-value="v"><span>v</span></button>
+					<button class="alpha" id="char_w" data-value="w"><span>w</span></button>
+					<button class="alpha" id="char_x" data-value="x"><span>x</span></button>
+					<button class="alpha" id="char_y" data-value="y"><span>y</span></button>
+					<button class="alpha" id="char_z" data-value="z"><span>z</span></button>
+				</div>
+			</div>
+			<div class="bottomsection">
+				<div class="playset">
+<!--
+					<button class="playbutton" id="button1" style="display:none;">
+						<img src="images/button-play.png">
+					</button>
+-->					<div class="playbutton" >
+							<img src="images/button-play.png">
+					</div>
+				</div>
+				<div class="footlogo">
+					<img src="images/logo_shire.png">
+					<div class="copyright">&copy; Shire <script>document.write(new Date().getFullYear())</script> INTSP/C-ANPROM/HS/17/0002i April <script>document.write(new Date().getFullYear())</script></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<div id="popupoverlay">
+		<div class="popupsegment">
+			<div class="closepop letsclose">
+				<img src="images/close.jpg"/>
+			</div>
+			<div class="popupnearer">
+				<div class="title">
+					<p>Identify the Hunter syndrome symptom for this</p>
+					<p>multisystemic, progressive disease as quickly as</p>
+					<p>you can to reduce diagnostic delay</p>
+				</div>
+				<div class="rules">
+					<img src="images/rules.png">
+				</div>
+				<div class="points">
+					<ul>
+						<li>Select letters in turn to identify the Hunter syndrome symptom before it's too late</li>
+						<li>Incorrect guesses delay diagnosis</li>
+						<li>Used letters turn grey if incorrect, purple if correct</li>
+					</ul>
+				</div>
+				<div class="letsgosect">
+					<button class="letsgo">Let's go!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="errorpopupoverlay">
+		<div class="popupsegment">
+			<div class="closepop">
+				<img src="images/close.jpg"/>
+			</div>
+			<div class="popupnearer">
+				<div class="timeup">
+					<img src="images/timesup.png">
+				</div>
+				<div class="para">
+					<p><span class="percent"></span>% of Hunter syndrome patients have <span class="notation"></span> <span class="disease"></span><sup>1</sup></p>
+					<p>Time is crucial. Refer to a specialist on first clinical suspicion of MPS II to identify Hunter syndrome early</p>
+				</div>
+				<div class="mansect">
+					<img src="images/popup-persons.png"/>
+				</div>
+				<div class="playagainsect">
+					<button class="playagain">Play again</button>
+				</div>
+			</div>
+			<div id="wraith">1. Wraith JE et l. Genet Med 2008; 10(7): 508-516.</div>
+		</div>
+	</div>
+	<div id="congratspopupoverlay">
+		<div class="popupsegment">
+			<div class="closepop">
+				<img src="images/close-green.png"/>
+			</div>
+			<div class="popupnearer">
+				<div class="congrats">
+					<img src="images/congrats.png">
+				</div>
+				<div class="cpara">
+					<p>You correctly identified a symptom that could indicate Hunter syndrome (MPS II)</p>
+					<p><span class="percent"></span>% of Hunter syndrome patients have <span class="notation"></span> <span class="disease"></span><sup>1</sup> [<span class="wraith"></span>]</p>
+					<p> Refer to a specialist on first clinical suspicion of Hunter syndrome.</p>
+				</div>
+				<div class="keepplayingsect">
+					<button class="keepplaying">Keep playing</button>
+				</div>
+			</div>
+			<div id="wraith">1. Wraith JE et l. Genet Med 2008; 10(7): 508-516.</div>
+		</div>
+	</div>
+	<div class="curid" data-extra="0"></div>
+	<audio id="backaudio" autoplay loop>
+		<source src="images/background.wav#t=0" type="audio/wav">
+	</audio> 
+	<audio id="click">
+		<source src="images/click.wav#t=0" type="audio/wav">
+	</audio>
+</html>
